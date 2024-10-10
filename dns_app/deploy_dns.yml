@@ -102,6 +102,7 @@ spec:
   type: LoadBalancer
   ports:
     - port: 53533
+      nodePort: 30001
       protocol: UDP  
   selector:
     app: as-app
